@@ -7,11 +7,12 @@ class MobileNavbar {
 
         this.handleClick = this.handleClick.bind(this);
 }
-    handleClick(){
-        this.navbarList.classList.toggle(this.activeClass);
+    handleClick()
+    {
         this.mobileMenu.classList.toggle(this.activeClass);
+        this.navbarList.style.visibility = (this.navbarList.style.visibility === 'visible') ? 'hidden' : 'visible'
     }
-
+    
     addClickEvent(){
         this.mobileMenu.addEventListener("click", this.handleClick);
     }

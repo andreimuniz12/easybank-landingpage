@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Public Sans', sans-serif;
+   
    }
 ul{
     list-style: none;
 }
-body{
-    overflow-x: hidden;
-}
+
